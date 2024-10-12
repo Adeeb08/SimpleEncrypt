@@ -17,10 +17,12 @@ Created SimpleEncrypt, a user-friendly encryption tool that implements Caesar, V
    git clone <repository-url>
 
 2. Navigate to project directory:
+   ```bash
     cd SimpleEncrypt
 
-3. Run the program:
+4. Run the program:
+   ```bash
    python simple_encrypt.py
 
-4. Follow the on-screen instructions to encrypt or decrypt messages.
+6. Follow the on-screen instructions to encrypt or decrypt messages.
 
