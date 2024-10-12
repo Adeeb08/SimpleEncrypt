@@ -1,4 +1,3 @@
-readme_content = """
 # SimpleEncrypt
 
 ## Description
