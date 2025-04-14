@@ -25,22 +25,22 @@
    git clone https://github.com/Adeeb08/SimpleEncrypt.git
 
 2. Navigate to the project directory:
-
-cd SimpleEncrypt
-
+   ```bash
+   cd SimpleEncrypt
 
 3. Run the GUI application:
-
-python simpleencrypt.py
-
+   ```bash
+   python simpleencrypt.py
 
 4. Use the interface to:
 
-Select a cipher.
+   a. Select a cipher.
 
-Enter your message and keys.
+   b. Enter your message and keys.
 
-Encrypt or decrypt text.
+   c. Encrypt or decrypt text.
 
-Copy the result to your clipboard.
+   d. Copy the result to your clipboard.
 
+
+**NOTE** : This project uses **TKINTER**, which is included with most standard Python installation. If it's missing, you can install it on **Linux** using 'sudo apt install python3-tk'. On **Windows**, you can ensure that tkinter module is selected during Python installation.
