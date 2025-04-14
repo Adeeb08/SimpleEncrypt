@@ -1,15 +1,20 @@
 # SimpleEncrypt
 
 ## Description
-**SimpleEncrypt** is a user-friendly encryption tool with a lightweight GUI built using Tkinter. It supports Caesar, Vigenère, and Affine ciphers, allowing users to securely encrypt and decrypt messages. This project demonstrates my passion for cryptography and Python development, providing both a functional tool and a learning resource.
+**SimpleEncrypt** is a user-friendly Python tool with a graphical interface that allows users to encrypt and decrypt messages using classical cipher techniques. Built with Tkinter, it provides a smooth experience for experimenting with encryption methods.
 
-## Features
-- **Graphical Interface**: Built with Tkinter for easy interaction.
-- **Caesar Cipher**: Shift characters by a fixed number of positions.
-- **Vigenère Cipher**: Use a keyword to encrypt messages with varying shifts.
-- **Affine Cipher**: Apply a mathematical function for encryption and decryption.
-- **Copy to Clipboard**: Easily copy encrypted or decrypted messages with one click.
-- **Dynamic Input Fields**: Automatically prompts for specific cipher keys based on user selection.
+## Ciphers Implemented
+
+- **Caesar Cipher** – Shifts each letter in the plaintext by a fixed number of positions in the alphabet.
+
+- **Vigenère Cipher** – Uses a keyword to apply different Caesar shifts to each character of the message.
+
+- **Affine Cipher** – Applies a mathematical function of the form **(a * x + b) mod m**, where:
+  - **x** is the position of the letter in the alphabet,
+  - **a** and **b** are keys,
+  - **m** is the size of the alphabet (typically 26 for English letters).
+
+> *More ciphers will be added in future updates.*
 
 ## Technologies Used
 - Python
@@ -43,4 +48,6 @@
    d. Copy the result to your clipboard.
 
 
-**NOTE** : This project uses **TKINTER**, which is included with most standard Python installation. If it's missing, you can install it on **Linux** using 'sudo apt install python3-tk'. On **Windows**, you can ensure that tkinter module is selected during Python installation.
+
+
+**NOTE** : This project uses **TKINTER**, which is included with most standard Python installation. If it's missing, you can install it on **Linux** (Debian-based) using 'sudo apt install python3-tk'. On **Windows**, you can ensure that tkinter module is selected during Python installation.
