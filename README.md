@@ -1,5 +1,3 @@
----
-
 # SimpleEncrypt
 
 ## Description
@@ -45,7 +43,4 @@ Enter your message and keys.
 Encrypt or decrypt text.
 
 Copy the result to your clipboard.
-
----
-
 
